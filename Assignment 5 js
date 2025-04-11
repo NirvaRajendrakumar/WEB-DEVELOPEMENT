@@ -1,0 +1,14 @@
+window.onload = function () {
+  var toggleButton = document.getElementById('toggle-comments');
+  var commentBox = document.querySelector('.comment-wrapper');
+
+  toggleButton.onclick = function () {
+    if (commentBox.hidden) {
+      commentBox.hidden = false;
+      toggleButton.textContent = 'Hide comments';
+    } else {
+      commentBox.hidden = true;
+      toggleButton.textContent = 'Show comments';
+    }
+  };
+};
