@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bear Facts</title>
+</head>
+<body>
+  <h1>Welcome to Bear World!</h1>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">Projects</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <h2>About Bears</h2>
+  <p>Bears are large mammals found in forests and mountains.</p>
+
+  <h3>Types of Bears</h3>
+  <ul>
+    <li>Brown Bear</li>
+    <li>Black Bear</li>
+    <li>Polar Bear</li>
+  </ul>
+
+  <img src="bear.jpg" alt="A bear in the forest" width="300">
+
+  <h3>Leave a Comment</h3>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+    <label for="comment">Comment:</label>
+    <input type="text" id="comment"><br><br>
+    <input type="submit" value="Post">
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Bear World</p>
+  </footer>
+</body>
+</html>
